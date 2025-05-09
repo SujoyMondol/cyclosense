@@ -1,5 +1,5 @@
 import '@/pages/globals.css';
-import { Shield, Lightbulb, HeartPulse, AlertTriangle, ArrowUpCircle } from 'lucide-react';
+import { HardHat, Lightbulb, HeartPulse, AlertTriangle, ArrowUpCircle } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="flex items-center justify-between px-8 py-6">
         <div className="flex items-center gap-2">
-          <Shield className="w-8 h-8 text-emerald-400" strokeWidth="2" />
+          <HardHat className="w-8 h-8 text-emerald-400" strokeWidth="2" />
           <span className="text-2xl font-bold text-white">CycloMet</span>
         </div>
         <div className="hidden md:flex gap-8">
@@ -89,7 +89,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-white/10 mt-24 py-12">
         <div className="container mx-auto px-6 text-center text-cyan-100">
-          <Shield className="inline-block w-6 h-6 mb-2" strokeWidth="2" />
+          <HardHat className="inline-block w-6 h-6 mb-2" strokeWidth="2" />
           <p>© 2025 CycloSense. All rights reserved.</p>
         </div>
       </footer>
