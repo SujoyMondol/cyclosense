@@ -1,5 +1,7 @@
 //import Image from "next/image";
 
+import '@/pages/globals.css'
+
 export default function Home() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-900/95 via-teal-900/20 to-emerald-900/5">
@@ -7,7 +9,7 @@ export default function Home() {
         <nav className="flex items-center justify-between px-8 py-6">
           <div className="flex items-center gap-2">
             <div className="h-8 w-8 bg-emerald-400 rounded-full"></div>
-            <span className="text-2xl font-bold text-white">CycloSense</span>
+            <span className="text-2xl font-bold text-white">CycloMet</span>
           </div>
           <div className="hidden md:flex gap-8">
             <button className="text-emerald-200 hover:text-white transition-colors">Features</button>
